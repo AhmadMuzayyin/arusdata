@@ -1,0 +1,21 @@
+{
+  "name": "arusdata-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "demo/*",
+    "landing"
+  ],
+  "scripts": {
+    "build:client": "cd client && npm run build",
+    "build:landing": "cd landing && npm run build",
+    "start:server": "cd server && npm start",
+    "start:demo": "cd demo/chat && npm start",
+    "start:landing": "cd landing && npm start",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "author": "Ust Dev Team | Ahmad Muzayyin",
+  "license": "MIT"
+}
