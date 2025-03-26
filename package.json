@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AhmadMuzayyin/arusdata/issues"
   },
-  "homepage": "https://arusdatajs.com"
+  "homepage": "https://arusdatajs.com",
+  "dependencies": {
+    "arusdata": "^0.1.0"
+  }
 }
